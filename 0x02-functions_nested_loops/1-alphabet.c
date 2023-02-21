@@ -1,4 +1,3 @@
-#include<main.h>
 #include <stdio.h>
 /**
  * main - A program that prints the alphabet in lowercase
