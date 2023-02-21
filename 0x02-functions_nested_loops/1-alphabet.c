@@ -7,10 +7,8 @@
 
 int  main(void)
 {
-	print_alphabet("Print the alphabet");
 	int ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
 	putchar(ch);
-	putchar('\n');
 	return (0);
 }
