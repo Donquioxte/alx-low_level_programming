@@ -14,6 +14,9 @@ int main(void)
 	i = 0;
 
 	while (i < 10)
+		/**
+		 * causes line to go on infinite loop
+		 */
 	{
 		putchar(i);
 	}
