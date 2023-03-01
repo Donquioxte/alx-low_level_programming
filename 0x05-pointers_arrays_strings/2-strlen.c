@@ -6,12 +6,13 @@
  *
  * *s: A character to be measured
  *
- * Return 0(Success)
+ * Return length of string
  */
 
 int _strlen(char *s)
 {
-	char *s[5]="String";
-	printf("The Length of the string: %zu \n",strlen(*s));
-	return (0);
+	size_t length = 0;
+	while (*s ++)
+		length++;
+	return (length);
 }
