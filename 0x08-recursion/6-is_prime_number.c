@@ -4,15 +4,15 @@
 int check_prime(int n, int i);
 
 /**
- * s_prime_number - returns 1 if the input 
+ * s_prime_number - returns 1 if the input
  * integer is a prime number, otherwise return 0.
  * @n: Input
- * RReturn: integer value
+ * Return: integer value
  */
 
 int is_prime_number(int n)
 {
-	return (check_prime(n , 1));
+	return (check_prime(n, 1));
 }
 
 /**
