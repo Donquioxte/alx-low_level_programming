@@ -10,13 +10,13 @@ int _strlen_recusion(char *s)
 	if (*s == '\0')
 		return (0);
 	else
-		return (1 + _strlrn_recursion(s + 1));
+		return (1 + _strlen_recursion(s + 1));
 }
 
 /**
  * comparator - compare each character of the string
  * @s: string
- * @n1: smallesr]t iterator
+ * @n1: smallest iterator
  * @n2: Largest iterator
  * Return: .
  */
@@ -40,5 +40,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	return (comparator(S, 0, _strlen_recusion(s) - 1));
+	return (comparator(s, 0, _strlen_recusion(s) - 1));
 }
