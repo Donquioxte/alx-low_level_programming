@@ -10,6 +10,6 @@
 
 void _puts(char *str)
 {
-	char *str = "Random Line";
-	puts (*str);
+	*str = "Random Line";
+	put(*str);
 }
