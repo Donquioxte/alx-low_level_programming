@@ -6,7 +6,7 @@
  * @str: char
  * Return: 0
  */
-		
+
 char *_strdup(char *str)
 {
 	char *aaa;
@@ -14,7 +14,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
+
 	i = 0;
 	while (str[i] != '\0')
 		i++;
